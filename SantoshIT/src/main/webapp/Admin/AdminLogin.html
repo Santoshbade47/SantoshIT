@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ 	
+ 	<script defer src="AdminLoginValidation.js"></script>
+ 	<style type="text/css">
+ 	 	input{
+ 	 		width:190px;
+ 	 		border: none;
+ 	 		border-radius: 5px;
+ 		}
+ 		form{
+ 			width: 250px;
+ 			margin: 60px auto;
+ 			padding: 10px;
+ 			
+ 			background-color: rgb(255, 202, 255);
+ 			border-radius: 5px;
+ 		}
+ 		#butt{
+ 			width: 100%;
+ 		}
+ 		#butt:hover{
+ 			background-color: rgb(212, 212, 212);
+ 		}
+	 	header{
+			background-color: rgb(20, 21, 46);
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+	 	}
+	 	.adm{
+	 		color: white;
+	 		display: flex;
+	 		justify-content:center;
+	 		font-size: 30px;
+	 	}
+	 	.errorAdm, .errorPass{
+	 	 	color: red;
+	 	 	font-size: 13px;
+			margin: 5px 0px 5px 0px;
+	 	}
+ 	</style>
+</head>
+<body>
+	<header>
+		<a href="#" class="p-0"><img src="../images/logoSantu.png" height="50px" width="130px"></a>
+		<div class="adm"> 
+			<p>Admin Login</p>
+			<i class="ms-3 ib bi-person-circle"></i>
+		</div>
+	</header>	
+	<form action="" method="post">
+		<h6 style="color: rgb(100, 60, 4);text-align: center;" class="mt-2">Login Admin</h6>
+		<input type="text" name="adminId" placeholder="Enter Admin Id" id="aid"><i class="ms-2 fs-5 bi bi-person-fill"></i>
+		<div class="errorAdm"></div>
+		<input type="password" name="pass" placeholder="Enter Password" id="password"><i class="ms-2 fs-4 bi bi-person-fill-lock"></i>
+		<div class="errorPass"></div>
+		<button type="submit" name="button" value="1" class="mt-2" id="butt">Login</button>
+		<a href="#" id="forgetPass" class="ms-5 text-decoration-none" style="color:rgb(146, 98, 10);">forget password?</a><br>
+	</form>
+</body>
+</html>

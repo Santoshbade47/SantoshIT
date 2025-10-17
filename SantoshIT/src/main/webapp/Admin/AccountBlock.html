@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script defer src="./AdminHeader.js"></script>
+	<script defer src="./AccountBlockJson.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	
+	<link rel="stylesheet" href="./AdminH.css">
+	<style type="text/css">
+		.rightDiv{
+		    width:400px;
+			margin: 60px auto;
+			padding: 20px;
+		}
+		#bl{
+			background-color: red;
+		}
+		#act{
+			background-color: green;
+		}
+		#bl,#act{
+			border: none;
+			border-radius: 3px;
+			color: white;
+			font-size: 20px;
+		}
+		input{
+			border: none;
+			border-radius: 5px;	
+			width: 100%;
+			margin-bottom: 10px;
+			height: 35px;
+		}
+		form{
+			width:250px;
+			background-color: rgb(252, 197, 232);
+			padding: 20px;
+			margin: 5px auto;
+			border-radius: 10px;
+		}
+		h5{
+			text-align: center;
+			color: rgb(155, 155, 155);
+		}
+		.error{
+			color: red;
+			font-size: 15px;
+			padding: 3px;
+			text-align: center;
+		}
+		.success{
+			color: green;
+			font-size: 15px;
+			padding: 3px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header class="head"></header>
+	<main>
+		<div class="leftBar"></div>
+		<div class="rightDiv">
+		<h5>Student Account Block/Active</h5>
+			<form id="form" action="" method="post">
+				<input type="number" name="stuId" id="stuId" placeholder="Enter Student Id"><br>
+				<div class="d-flex justify-content-around">
+					<button class="ms-2" type="submit" id="bl" value="block" onclick="getValue(this)">Block</button>
+					<button class="ms-2" type="submit" id="act" value="active" onclick="getValue(this)">Active</button>
+				</div>
+			</form>
+			<div class="error"></div>
+			<div class="success"></div>
+		</div>
+	</main>
+</body>
+</html>

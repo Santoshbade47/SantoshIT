@@ -1,0 +1,39 @@
+    .admin{
+ 		color: white;
+ 		display: flex;
+ 		justify-content: center;
+ 		font-size: 30px;
+ 	}
+ 	 body{
+ 	  	background-color:white;
+ 	 }
+ 	 header{
+		background-color: rgb(20, 21, 46);
+ 		padding: 8px;
+ 	 }
+ 	 nav{
+ 	 	display: flex;
+ 	 	justify-content: space-between;
+ 	 	align-items: center;
+ 	 }
+ 	 .leftBar a{
+		text-decoration: none;
+		height: 40px;
+	 	width: 100%;
+	 	color: black;
+	 	display: flex;
+	 	align-items: center;
+	 	font-weight: bold;
+	}
+	.leftBar a:hover{
+		background-color:rgb(183, 122, 237); 
+	}
+ 	 .leftBar{
+ 	 	width: 18%;
+ 	 	height: 508px;
+ 	 	background-color: rgb(223, 196, 247);
+ 	 }
+ 	 main{
+ 	 	display: flex;
+ 	 }
+ 	 
