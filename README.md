@@ -1,45 +1,50 @@
 
-online-learning-management-system
-java-project
+# Online Learning Management System
 
-Online Learning Management System
-A web-based application developed using Java that allows students to enroll in courses, instructors to manage content, and admins to control the system.
+An Online LMS built using Java (Advanced Java), HTML, CSS, JavaScript, and MySQL.
 
-Features
-List what my project can do:
+##Features
+-> Student
+- Register & Login
+- View courses
+- Enroll in courses
+- Watch videos & study materials
+- Take quizzes
 
-Student
-Register & Login
+-> Instructor
+- Add / update courses
+- Upload content
+- View student progress
 
-View courses
+-> Admin
+- Manage users
+- Approve courses
+- Generate reports
 
-Enroll in courses
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Java (Servlets / JSP )  
+- **Database**: MySQL  
+- **Tools**: Eclipse / IntelliJ, Git, JDBC
 
-Watch videos / materials
+##  Project Structure
+(Optional — list important folders & what they contain)
 
-Take quizzes
+## How to Run (step-by-step)
+1. Clone the repo  
+2. Open in Eclipse / IntelliJ  
+3. Import project as Dynamic Web Project  
+4. Create database using provided SQL script  
+5. Update database config  
+6. Run on Tomcat server
 
-Instructor
-Add / update courses
+## Screenshots
+(Add a few screenshots of your app)
 
-Upload content
+## Future Improvements
+- Add payment gateway
+- Live classes
+- Notifications
 
-View student progress
-
-Admin
-Manage users
-
-Approve courses
-
-Generate reports
-
-Technologies Used:
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: Java, Servlets, JSP / Spring Boot
-
-Database: MySQL
-
-Tools: Eclipse / IntelliJ, Git, JDBC
-
+## About Me
+Santosh Bade — MCA Graduate | Java Developer  
